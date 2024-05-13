@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate Web</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        .box {
+            color: black;
+            font-size: 19px;
+            text-align: center;
+            border: solid;
+            height: 300px;
+            width: 300px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .box1 {
+            background-color: yellow;
+        }
+
+        .box2 {
+            background-color: rgb(230, 89, 89);
+        }
+
+        .box3 {
+            background-color: rgb(214, 12, 137);
+        }
+
+        .box4 {
+            background-color: rgb(61, 61, 32);
+        }
+
+        .box5 {
+            color: white;
+            background-color: rgb(27, 27, 24);
+        }
+    </style>
+</head>
+<body>
+
+<h1 style="text-align: center; color: black;">Animate Web</h1>
+<hr>
+<nav>
+    <select id="boxSelect">
+        <option value="box1">Box 1</option>
+        <option value="box2">Box 2</option>
+        <option value="box3">Box 3</option>
+        <option value="box4">Box 4</option>
+        <option value="box5">Box 5</option>
+    </select>
+
+    <select id="animationSelect">
+        <option value="hide">Hide</option>
+        <option value="show">Show</option>
+        <option value="toggle">Toggle</option>
+        <option value="fadeOut">Fade Out</option>
+        <option value="fadeIn">Fade In</option>
+        <option value="slideDown">Slide Down</option>
+        <option value="slideUp">Slide Up</option>
+        <option value="slideToggle">Slide Toggle</option>
+    </select>
+
+    <button id="startAnimation">Start Animation</button>
+
+    <br><br>
+
+    <div class="box box1">
+        <p>Click this box to automatically hide it.</p>
+        <hr>
+        <p>WordPress combines simplicity for users and publishers with under-the-hood complexity for developers. Discover the features that come standard with WordPress, and extend what the platform can do with.</p>
+    </div>
+
+    <div class="box box2">
+        <p>Click this box to automatically clear it.</p>
+        <hr>
+        <p>WordPress combines simplicity for users and publishers with under-the-hood complexity for developers. Discover the features that come standard with WordPress, and extend what the platform can do with.</p>
+    </div>
+
+    <div class="box box3">
+        <p>Click this box to automatically hide it.</p>
+        <hr>
+        <p>WordPress combines simplicity for users and publishers with under-the-hood complexity for developers. Discover the features that come standard with WordPress, and extend what the platform can do with.</p>
+    </div>
+
+    <div class="box box4">
+        <p>Click this box to automatically clear it.</p>
+        <hr>
+        <p>WordPress combines simplicity for users and publishers with under-the-hood complexity for developers. Discover the features that come standard with WordPress, and extend what the platform can do with.</p>
+    </div>
+
+    <div class="box box5">
+        <p>Click this box to automatically clear it.</p>
+        <hr>
+        <p>WordPress combines simplicity for users and publishers with under-the-hood complexity for developers. Discover the features that come standard with WordPress, and extend what the platform can do with.</p>
+    </div>
+
+</nav>
+
+<script src="main.js"></script>
+   
+
+</body>
+</html>
